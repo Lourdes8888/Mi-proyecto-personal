@@ -12,3 +12,4 @@ Esta pagina se trata de mi portfolio personal...
 
 ## AUTORA
 Lourdes Belen Trosch.
+git
