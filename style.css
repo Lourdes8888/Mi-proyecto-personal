@@ -6,6 +6,7 @@
     --fondo: #fdf0f1;
     --texto: #3d2427;
 }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@300;400;700&display=swap');
 
 * {
     margin: 0;
@@ -61,3 +62,62 @@ nav a:hover {
     border-bottom: 2px solid white;
     color: white;
 }
+
+main {
+  display: flex;          
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 32px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+article#sobremi {
+  flex: 2;
+  min-width: 260px;
+  background-color: var(--color-secundario);
+  border-radius: var(--radio);
+  padding: 28px;
+  border: 1px solid var(--color-borde);
+  box-shadow: 3px 3px 12px var(--color-sombra);
+  transition: box-shadow var(--transicion), transform var(--transicion);
+}
+
+article#sobremi:hover {
+  box-shadow: 6px 6px 20px var(--color-sombra);
+  transform: translateY(-3px);
+}
+
+article#sobremi h2 {
+  font-family: var(--fuente-titulo);
+  color: var(--color-acento);
+  font-size: 1.6rem;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--color-borde);
+}
+
+article#sobremi p {
+  font-size: 1rem;
+  margin: 6px 0;
+}
+
+aside {
+  flex: 1;
+  min-width: 200px;
+  background-color: var(--color-primario);
+  border-radius: var(--radio);
+  padding: 24px;
+  border: 1px solid var(--color-borde);
+  box-shadow: 3px 3px 12px var(--color-sombra);
+  transition: box-shadow var(--transicion), transform var(--transicion);
+}
+
+aside:hover {
+  box-shadow: 6px 6px 20px var(--color-sombra);
+  transform: translateY(-3px);
+}
+
+
+
