@@ -1,4 +1,4 @@
-/* Variables de color */
+
 :root {
     --rosa: #c9848a;
     --rosa-claro: #f0d4d6;
@@ -119,4 +119,40 @@ aside:hover {
   transform: translateY(-3px);
 }
 
+aside h3 {
+  font-family: var(--fuente-titulo);
+  color: var(--color-acento);
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+aside p {
+  font-size: 0.95rem;
+  margin: 6px 0;
+}
+
+
+section#informacion,
+section#imagen,
+section#video {
+  width: 100%;
+  background-color: #fff;
+  border-radius: var(--radio);
+  padding: 28px;
+  border: 1px solid var(--color-borde);
+  box-shadow: 3px 3px 12px var(--color-sombra);
+}
+
+section#informacion h2,
+section#imagen h2,
+section#video h2 {
+  font-family: var(--fuente-titulo);
+  color: var(--color-acento);
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--color-borde);
+}
 
